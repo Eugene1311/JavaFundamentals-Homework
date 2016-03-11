@@ -1,6 +1,7 @@
-package task_2;
+package Homework_1.src.task_2;
 
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 /**

@@ -1,4 +1,4 @@
-package task_2;
+package Homework_1.src.task_2;
 
 /**
  * Created by Евгений on 05.03.2016.
