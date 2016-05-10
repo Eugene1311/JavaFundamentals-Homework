@@ -11,7 +11,8 @@ public class Reader {
         String fileToWrite = "JavaFundamentals-Homework/Homework_4/src/task_3/ru_utf16.txt";
         File file = new File(fileToOpen);
 
-        try(FileReader inputFile = new FileReader(fileToOpen);
+        try(BufferedReader inputFile = new BufferedReader(new InputStreamReader(
+                new FileInputStream(fileToOpen) ,"UTF8"));
             Writer out = new BufferedWriter(new OutputStreamWriter(
                     new FileOutputStream(fileToWrite), "UTF16"))
         ) {
